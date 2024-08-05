@@ -1,0 +1,23 @@
+{
+    "name": "acquia-cli-github-ext",
+    "version": "1.0.0",
+    "description": "A GitHub Action to integrate Acquia CLI with workflows",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "github-action",
+      "acquia",
+      "cli",
+      "ci",
+      "cd"
+    ],
+    "author": "Panshul Khurana",
+    "license": "MIT",
+    "dependencies": {
+      "@actions/core": "^1.6.0",
+      "@actions/exec": "^1.1.0"
+    }
+  }
+  

@@ -1,0 +1,13 @@
+
+#### `action.yml`
+
+```yaml
+name: 'Acquia CLI Integration'
+description: 'A GitHub Action to integrate Acquia CLI with workflows'
+inputs:
+  command:
+    description: 'The Acquia CLI command to run'
+    required: true
+runs:
+  using: 'node12'
+  main: 'src/index.js'

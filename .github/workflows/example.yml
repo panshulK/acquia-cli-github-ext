@@ -1,12 +1,3 @@
-# Acquia CLI GitHub Action
-
-This GitHub Action integrates Acquia CLI with GitHub workflows.
-
-## Usage
-
-### Example Workflow
-
-```yaml
 name: CI
 
 on: [push]
@@ -31,6 +22,6 @@ jobs:
         sudo mv acli.phar /usr/local/bin/acli
 
     - name: Run Acquia CLI command
-      uses: your-username/acquia-cli-github-ext@v1.0.0
+      uses: ./
       with:
         command: 'status'
