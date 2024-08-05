@@ -22,6 +22,5 @@ jobs:
         sudo mv acli.phar /usr/local/bin/acli
 
     - name: Run Acquia CLI command
-      uses: ./
-      with:
-        command: 'status'
+      run: |
+        acli --version
